@@ -1,0 +1,56 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+#container {
+  margin: 20px auto;
+}
+
+#image {
+  width: 200px;
+  height: 200px;
+  filter: brightness(0);
+}
+
+form {
+  margin: 20px auto;
+}
+
+label,
+input,
+button {
+  font-size: 1em;
+  margin: 10px;
+}
+
+#score {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  font-size: 1em;
+  padding: 10px;
+  background-color: hsl(211, 98%, 52%);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: hsl(211, 93%, 23%);
+}
