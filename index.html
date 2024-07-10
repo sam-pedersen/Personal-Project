@@ -8,24 +8,28 @@
   </head>
   <body>
     <h1>Guess the state?</h1>
-    <div id="container">
-      <img
-        id="image"
-        src="/images/OUTLINE IMAGES/Alabama-Outline-Map.jpg"
-        alt="Who's that?"
-      />
+    <div>
+      <img id="state-image" src="" alt="State Image" width="20%" height="20%" />
     </div>
     <form id="guess-form">
-      <label for="state-name">State:</label>
-      <input type="text" id="state-name" name="state-name" />
-      <button type="submit">Submit</button>
+      <input type="text" id="state-name" placeholder="Enter state name" />
+      <button type="submit">Guess</button>
     </form>
     <div id="score">Score: 0</div>
-    <div id="buttons">
-      <button id="skip">Skip</button>
-      <button id="hint">Hint</button>
-      <button id="reset">Reset</button>
+    <div id="flag-container">
+      <img
+        id="flag-image"
+        src=""
+        alt="Flag Image"
+        style="display: none"
+        height="20%"
+        width="20%"
+      />
     </div>
+    <button id="next" style="display: none">Next</button>
+    <button id="skip">Skip</button>
+    <button id="hint">Hint</button>
+    <button id="reset">Reset</button>
     <script src="script.js"></script>
   </body>
 </html>
