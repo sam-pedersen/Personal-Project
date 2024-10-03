@@ -93,9 +93,9 @@ function displayWinMessage() {
 function showFlag() {
   flagImage.src = stateList[currentStateIndex].flag
   flagImage.style.display = 'block' // Show flag image
-  stateImage.style.display = 'none' // Hide map image
-  guessForm.style.display = 'none'
-  nextButton.style.display = 'block'
+  stateImage.style.display = 'none' // Hide map image when the guess is correct
+  guessForm.style.display = 'none' // Hide the guess form
+  nextButton.style.display = 'block' // Show the next button
 }
 
 // Event listeners
